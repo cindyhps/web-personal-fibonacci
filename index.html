@@ -170,7 +170,7 @@
         function tampilkanFibonacci() {
             const jumlahAngka = parseInt(document.getElementById("jumlahAngka").value);
             if (isNaN(jumlahAngka) || jumlahAngka < 1 || jumlahAngka > 100) {
-                alert("Masukkan jumlah angka antara 1 hingga 100.");
+                alert("Enter a number between 1 and 100.");
                 return;
             }
 
@@ -181,7 +181,7 @@
             }
 
             const hasilFibonacci = fibonacci.join(", ");
-            document.getElementById("hasilFibonacci").textContent = `Deret Fibonacci pertama ${jumlahAngka} angka: ${hasilFibonacci}`;
+            document.getElementById("hasilFibonacci").textContent = `The first Fibonacci sequence ${jumlahAngka} angka: ${hasilFibonacci}`;
         }
     </script>
 </section>
